@@ -10,7 +10,7 @@
 
 <div align="center">
 
-![Pipeline](static/images/pipeline.png)
+![Pipeline](static/images/pipeline.png?v=1)
 
 *PhysGM Architecture Overview*
 
