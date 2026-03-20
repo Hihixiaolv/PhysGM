@@ -2,6 +2,8 @@
 
 # PhysGM: Large Physical Gaussian Model for Feed-Forward 4D Synthesis
 
+![Pipeline](asserts/pipeline.png)
+
 <video src="https://raw.githubusercontent.com/Hihixiaolv/PhysGM/main/assets/banner_video.mp4" autoplay loop muted playsinline width="80%"></video>
 
 <br>
