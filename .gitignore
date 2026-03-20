@@ -34,7 +34,6 @@ results/
 output/
 outputs/
 *.ply
-*.mp4
 *.avi
 
 .DS_Store
