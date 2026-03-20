@@ -2,7 +2,7 @@
 
 # PhysGM: Large Physical Gaussian Model for Feed-Forward 4D Synthesis
 
-<video src="static/videos/banner_video.mp4" autoplay loop muted playsinline width="80%"></video>
+<video src="https://github.com/Hihixiaolv/PhysGM/raw/refs/heads/main/static/videos/banner_video.mp4" autoplay loop muted playsinline width="80%"></video>
 
 <br>
 
