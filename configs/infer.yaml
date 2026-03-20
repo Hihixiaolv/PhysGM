@@ -1,0 +1,70 @@
+data:
+
+  data_path: "./example_data/data.txt" 
+  resize_h: 512
+  square_crop: true
+  num_input_frames: 4  
+  num_target_frames: 4
+  target_has_input: true
+
+# general settings
+checkpoint_dir: "checkpoints"
+evaluation_dir: "evaluation"
+use_tf32: true
+use_amp: true
+amp_dtype: "bf16"
+
+model:
+  use_dinov3: true
+  dinov3_path: ""
+  dinov3_dim: 1024
+  num_layers: 24
+  patch_size: 16
+  dim: 1024
+  block_type: "transformer"
+  transformer:
+    head_dim: 64
+
+  num_global_tokens: 3
+  gaussians:
+    sh_degree: 0
+    near_plane: 0.001
+    far_plane: 2.5
+    scale_bias: -7.5
+    scale_max: -2.0
+    opacity_bias: -1.5
+    align_to_pixel: True
+    max_dist: 2.0
+  
+training:
+  # optimizer
+  batch_size_per_gpu: 8
+  train_steps: 100000
+  grad_accum_steps: 1
+  lr: 0.0002
+  beta1: 0.9
+  beta2: 0.95
+  weight_decay: 0.05
+  warmup_steps: 5000
+  scheduler_type: "cosine"
+  grad_clip_norm: 30.0
+
+  # dataloader
+  num_workers: 8
+  prefetch_factor: 128
+
+
+  # losses
+  l2_loss: 1
+  opacity_loss: 0.1
+  physical_loss: 0.1
+  E_loss: 0.01
+  nu_loss: 0.01
+
+  # logging
+  print_every: 50
+  wandb_every: 50
+  checkpoint_every: 1000
+  vis_every: 250
+  save_gaussian_every: 500
+  save_video_every: 500

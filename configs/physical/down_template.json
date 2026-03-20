@@ -1,0 +1,80 @@
+{
+    "opacity_threshold": 0.02,
+    "rotation_degree": [
+        0.0
+    ],
+    "rotation_axis": [
+        0
+    ],
+    "substep_dt": 2e-4,
+    "frame_dt": 4e-2,
+    "density": 5000,
+    "frame_num": 50,
+    "g": [
+        0.0,
+        -0.98,
+        0.0
+    ],
+    "friction_angle": 30,
+    "n_grid": 100,
+    "particle_filling": {
+        "n_grid": 50,
+        "density_threshold": 50.0,
+        "search_threshold": 1.0,
+        "search_exclude_direction": 2,
+        "ray_cast_direction": 4,
+        "max_particles_num": 200000,
+        "max_partciels_per_cell": 1,
+        "boundary": [
+            0.4,
+            1.6,
+            0.4,
+            1.6,
+            0.4,
+            1.6
+        ],
+        "smooth": true,
+        "visualize": true
+    },
+    "boundary_conditions": [
+        {
+            "type": "bounding_box"
+        },
+        {
+            "type": "surface_collider",
+            "point": [
+                1,
+                0.25,
+                1
+            ],
+            "normal": [
+                0.0,
+                1.0,
+                0.0
+            ],
+            "surface": "slip",
+            "friction": 0.0,
+            "start_time": 0,
+            "end_time": 1e3
+        }
+    ],
+    "mpm_space_vertical_upward_axis": [
+        0,
+        1,
+        0
+    ],
+    "mpm_space_viewpoint_center": [
+        1,
+        0.8,
+        1
+    ],
+    "default_camera_index": -1,
+    "show_hint": false,
+    "init_azimuthm": -45,
+    "init_elevation": 0,
+    "init_radius": 1.8,
+    "move_camera": false,
+    "delta_a": -2.4,
+    "delta_e": 0.0,
+    "delta_r": 0.0
+}
