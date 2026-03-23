@@ -1,0 +1,12 @@
+# 将 C++ 和 CUDA 相关的源文件标记为依赖项或生成项，从而不计入语言统计
+*.cpp linguist-vendored
+*.hpp linguist-vendored
+*.cc linguist-vendored
+*.c linguist-vendored
+*.h linguist-vendored
+*.cu linguist-vendored
+*.cuh linguist-vendored
+
+# 将 CMake 配置文件排除
+CMakeLists.txt linguist-vendored
+*.cmake linguist-vendored
