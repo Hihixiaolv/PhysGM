@@ -7,7 +7,8 @@
 <br>
 
 
-<video src="./assets/banner_video.mp4" width="800" controls autoplay loop muted></video>
+
+<video src="https://github.com/user-attachments/assets/3b531598-61e1-41c2-9623-bac0e1d18d81" width="800" controls autoplay loop muted></video>
 
 
 
