@@ -16,7 +16,7 @@ amp_dtype: "bf16"
 
 model:
   use_dinov3: true
-  dinov3_path: ""
+  dinov3_path: "facebook/dinov3-vitl16-pretrain-lvd1689m"
   dinov3_dim: 1024
   num_layers: 24
   patch_size: 16

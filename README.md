@@ -48,7 +48,7 @@ pip install torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https
 pip install -r requirements.txt
 
 # 4. Install 3DGS core dependencies directly via git
-pip install gsplat==1.5.0
+pip install git+https://github.com/nerfstudio-project/gsplat
 pip install git+https://github.com/graphdeco-inria/diff-gaussian-rasterization.git
 pip install git+https://github.com/camenduru/simple-knn.git
 ```
@@ -60,6 +60,7 @@ Please download the pre-trained weights and put them in the `checkpoints/` direc
 | Model Variant | Description | Download Link |
 | :--- | :--- | :--- |
 | **PhysGM-Base** | Trained on the PhysAssets dataset for robust 4D synthesis. |[Google Drive](https://drive.google.com/file/d/1uWrsUTKQO1rHLX7z3lAyYQp3IC4mdgi3/view?usp=sharing) |
+
 
 ## 🚀 Quick Start (Inference)
 
@@ -79,6 +80,14 @@ bash start.sh
 ```
 *Tip: Before training, please check and configure the dataset path, learning rate, and other hyper-parameters in your corresponding `.yaml` configuration file.*
 
+## 📦 Dataset: PhysAssets
+
+To train and evaluate PhysGM, we construct and release the **PhysAssets Dataset**. We currently provide a subset containing **20,000+** 3D objects sourced from the Objaverse dataset. Each data point includes multi-view images, corresponding camera parameters, and physical properties (material class, Young's modulus, Poisson's ratio).
+
+Due to file size limitations, the compressed dataset has been split into **7 chunks**.
+
+### Download the Dataset
+You can download the dataset from our [Hugging Face Dataset Page](https://huggingface.co/datasets/yaya234/PhysAssets). 
 ## 📚 Citation
 
 If you find our work useful, please cite our paper:
