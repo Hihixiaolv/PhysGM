@@ -2,8 +2,10 @@
 
 # PhysGM: Large Physical Gaussian Model for Feed-Forward 4D Synthesis
 
-
-<video src="https://raw.githubusercontent.com/Hihixiaolv/PhysGM/main/assets/banner_video.mp4" autoplay loop muted playsinline width="80%"></video>
+**Chunji Lv, Zequn Chen, Donglin Di, Weinan Zhang, Hao Li, Wei Chen, Yinjie Lei, Changsheng Li**
+<div align="center">
+  <img src="./ assets/pipeline.png" width="800" alt="PhysGM Pipeline"/>
+</div>
 
 <br>
 
