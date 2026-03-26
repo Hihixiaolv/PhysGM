@@ -3,11 +3,14 @@
 # PhysGM: Large Physical Gaussian Model for Feed-Forward 4D Synthesis
 
 **Chunji Lv, Zequn Chen, Donglin Di, Weinan Zhang, Hao Li, Wei Chen, Yinjie Lei, Changsheng Li**
-<div align="center">
-  <img src="./ assets/pipeline.png" width="800" alt="PhysGM Pipeline"/>
-</div>
 
 <br>
+
+
+<video src="./assets/banner_video.mp4" width="800" controls autoplay loop muted></video>
+
+
+
 
 [![arXiv](https://img.shields.io/badge/arXiv-2508.13911-b31b1b.svg)](https://arxiv.org/abs/2508.13911)
 [![Project Page](https://img.shields.io/badge/Project-Page-green.svg)](https://hihixiaolv.github.io/PhysGM.github.io/)
