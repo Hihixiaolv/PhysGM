@@ -27,6 +27,7 @@
 - 🎨 **Versatile**: Handles various scenarios including dropping, stretching, and multi-object interactions
 
 ## 📰 News
+- **[2026-04]** ✨ PhysGM is selected as CVPR 2026 Highlight!
 - **[2026-03]** 🔥 We released the inference and pre-trained code for PhysGM!
 - **[2026-02]** 🎉 PhysGM is accepted by **CVPR 2026**!
 - **[2025-08]** 📝 We released the [arXiv paper](https://arxiv.org/abs/2508.13911) and project page.
